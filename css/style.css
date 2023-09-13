@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --cor-fundo: #242EFF;
+    --cor-main: #251261;
+    --cor-main-dark:  #361BA6;
+    --cor-fonte: rgb(255 255 255);
+    --cor-hover:#9B30FF;
+}
+
+html{
+    background-image: url(/images/fundo.jpg)
+    
+
+}
+* {
+    
+    outline: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: var(--cor-main);   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor-fonte);    
+
+}
+
+
+header h1 {
+    width: 100%;   
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 50px;    
+    background: var(--cor-main);
+    color: var(--cor-fonte);
+    text-align: center;
+    bottom: 0;     
+    position: absolute; 
+}
+
+body {   
+    
+    height: 100%;
+
+    padding: 0;   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    background: var(--cor-main);
+    max-width: 60%;
+    height: 100%;
+    margin: 30px auto;
+    display: flex;
+    padding: 30px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dados {
+    width: 80%;
+    
+
+}
+
+
+
+form input, form label {
+
+    display: block;
+    width: 95%;
+    min-width: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: var(--cor-hover);
+}
+
+form button {
+    width: 95%;
+
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 2px solid var(--cor-main-dark);   
+}
+
+form button {
+    border: none;
+    background: var(--cor-fundo);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;    
+    border-radius: 5px;
+    transition: 0.5 ease;
+}
+
+form button:hover{
+    background: var(--cor-hover);
+}
+
+
+aside{
+
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+ 
